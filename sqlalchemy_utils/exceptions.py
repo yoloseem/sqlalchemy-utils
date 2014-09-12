@@ -1,6 +1,7 @@
 """Global SQLAlchemy-Utils exception classes.
 """
 
+
 class ImproperlyConfigured(Exception):
     """
     SQLAlchemy-Utils is improperly configured; normally due to usage of
